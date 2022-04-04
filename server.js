@@ -8,7 +8,7 @@ const swaggerUi = require("swagger-ui-express");
 swaggerDocument = require("./swagger.json");
 
 var corsOptions = {
-  origin: "http://localhost:8081",
+  origin: "http://5.161.42.108:5001",
 };
 
 app.use(cors(corsOptions));
